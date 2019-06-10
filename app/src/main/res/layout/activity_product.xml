@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/festivals_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scaleType="centerCrop">
+
+    <View
+        android:id="@+id/product_head"
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:background="@color/colorAccent"
+        android:padding="8dp" />
+
+    <TextView
+        android:id="@+id/total_amount_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:lines="2"
+        android:padding="@dimen/padding"
+        android:text="@string/total"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_medium" />
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view_transactions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/product_head"
+        android:layout_alignParentBottom="true"
+        android:padding="8dp"
+        android:paddingTop="8dp" />
+
+
+</RelativeLayout>

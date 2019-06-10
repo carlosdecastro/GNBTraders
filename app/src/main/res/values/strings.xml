@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">GNBTraders</string>
+
+    <!-- Error Messages -->
+    <string name="error_transaction_load">Error loading transactions via HTTP request [Status code = %1$d]</string>
+
+    <!-- Alert Messages -->
+    <string name="alert_transaction_load_failure">Failed to load list of transactions. \nCheck if device has connectivity and try again.</string>
+
+    <string name="total"> Total transactions amount in € </string>
+    <string name="error_connection">No data retrieved from the GNB servers</string>
+    <string name="error_connection_subtitle">Do you have internet connection?</string>
+    <string name="operation_amount_text">Operation amount: </string>
+    <string name="products_list">Products: </string>
+</resources>
